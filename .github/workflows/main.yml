@@ -39,7 +39,6 @@ jobs:
           COOKIES: '${{ secrets.COOKIES }}'
         id: get-posts
         run: |
-          rm results.txt
           git config user.name [github_username]
           git config user.email [github_email]
           git fetch origin
