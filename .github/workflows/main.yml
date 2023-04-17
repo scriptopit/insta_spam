@@ -39,8 +39,8 @@ jobs:
           COOKIES: '${{ secrets.COOKIES }}'
         id: get-posts
         run: |
-          git config user.name [github_username]
-          git config user.email [github_email]
+          git config user.name -- [github_username]
+          git config user.email -- [github_email]
           git fetch origin
           git reset --hard origin/master
           git pull
