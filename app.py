@@ -4,6 +4,7 @@ import random
 import time
 
 cookies = os.environ.get("COOKIES", "")
+print(cookies)
 
 if cookies == "":
     print("No cookies found, please set cookies in environment variable")
