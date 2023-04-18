@@ -20,7 +20,7 @@ user_agents = []
 # set chrome user agent
 set_user_agent(
     "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
-# set_cookies("cookies.json")
+set_cookies("cookies.json")
 time.sleep(2)
 
 g_ids = [
